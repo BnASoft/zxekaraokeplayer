@@ -10,22 +10,22 @@ video 태그 autoplay
 1. 웹루트에 아무데나 폴더를 2개 만든다.(저장소 폴더,플레이어 폴더)
 2. download zip을 사용해 압축파일을 받아 플레이어 폴더에 풀어준다.
    (git clone을 사용해도 된다)
-3. etc/config.json 파일을 열어 아래 내용을 입력한다.
-```json
-{
-    "archive_url":"http://(웹서버 주소)/(저장소 경로)"
-}
+3. js/config.js 파일을 열어 아래 내용을 입력한다.
+```js
+var cfg = {
+    archive_url:"http://(웹서버 주소)/(저장소 경로)"
+};
 ```
 4. 브라우저로 http://(웹서버 주소)/(플레이어 경로)에 접속한다.
 없거나 귀찮다면:
 1. 아무데나 폴더를 2개 만든다.(저장소 폴더,플레이어 폴더)
 2. download zip을 사용해 압축파일을 받아 플레이어 폴더에 풀어준다.
    (git clone을 사용해도 된다)
-4. etc/config.json 파일을 열어 아래 내용을 입력한다.
-```json
-{
-    "archive_url":"(저장소 폴더의 상대 경로)"
-}
+4. js/config.js 파일을 열어 아래와 같이 수정한다.
+```js
+var cfg = {
+    archive_url:"(저장소 폴더의 상대 경로)"
+};
 ```
 3. 브라우저로 index.html 파일을 연다.
 공통:
