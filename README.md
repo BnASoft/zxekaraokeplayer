@@ -48,7 +48,7 @@ video 태그 autoplay
             "song":"가수",
             "lyrics":"작사자",
             "music":"작곡자",
-            "origin":"원곡자. 없다면 이 줄은 없어도 됨"
+            "origin":"원곡. 없다면 이 줄은 없어도 됨"
         }
     }
 }
