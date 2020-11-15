@@ -32,13 +32,13 @@ var cfg = {
 4. 브라우저를 새로고침한다.
 5. 저장소 폴더에 kar_db.json과 archive.json 파일을 만든다.
 6. archive.json 파일을 열어 아래 내용을 입력한다.
-```json
+```js
 {
     "dbfile_name":"kar_db.json"
 }
 ```
 7. kar_db.json 파일을 열어 아래 내용을 입력한다.
-```json
+```js
 {
     "원하는 숫자(최대 5자리). 노래방 번호가 될거임":{
         "title":"제목",
