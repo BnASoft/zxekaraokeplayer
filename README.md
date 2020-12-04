@@ -22,24 +22,24 @@ var cfg = {
 1. 아무데나 폴더를 2개 만든다.(저장소 폴더,플레이어 폴더)
 2. download zip을 사용해 압축파일을 받아 플레이어 폴더에 풀어준다.
    (git clone을 사용해도 된다)
-4. js/config.js 파일을 열어 아래와 같이 수정한다.
+3. js/config.js 파일을 열어 아래와 같이 수정한다.
 ```js
 var cfg = {
     archive_url:"(저장소 폴더의 상대 경로)"
 };
 ```
-3. 브라우저로 index.html 파일을 연다.
+4. 브라우저로 index.html 파일을 연다.
 
 공통:
-4. 브라우저를 새로고침한다.
-5. 저장소 폴더에 kar_db.json과 archive.json 파일을 만든다.
-6. archive.json 파일을 열어 아래 내용을 입력한다.
+5. 브라우저를 새로고침한다.
+6. 저장소 폴더에 kar_db.json과 archive.json 파일을 만든다.
+7. archive.json 파일을 열어 아래 내용을 입력한다.
 ```json
 {
     "dbfile_name":"kar_db.json"
 }
 ```
-7. kar_db.json 파일을 열어 아래 내용을 입력한다.
+8. kar_db.json 파일을 열어 아래 내용을 입력한다.
 ```json
 {
     "원하는 숫자(최대 5자리). 노래방 번호가 될거임":{
@@ -55,9 +55,9 @@ var cfg = {
     }
 }
 ```
-8. 저장소폴더에 songs 폴더를 만들고, songs 폴더에 아까 넣었던 숫자를 넣는다.
-9. http://choyunjin.kr/page/kar_manual?name=lyrics 을(를) 참고하여 lyrics.zkr과 mr 등을 넣는다.
-10. 브라우저에서 open player버튼을 클릭하면 팝업창이 하나 열린다.
-11. 곡번호 칸에 아까 그 숫자를 입력한 뒤 시작버튼을 누르면 팝업창에 노래가 틀어진다.
-12. 취소버튼으로 노래를 끌수 있고, 일시정지버튼으로 곡을 일시정지할 수 있다.
+9. 저장소폴더에 songs 폴더를 만들고, songs 폴더에 아까 넣었던 숫자를 넣는다.
+10. http://choyunjin.kr/page/kar_manual?name=lyrics 을(를) 참고하여 lyrics.zkr과 mr 등을 넣는다.
+11. 브라우저에서 open player버튼을 클릭하면 팝업창이 하나 열린다.
+12. 곡번호 칸에 아까 그 숫자를 입력한 뒤 시작버튼을 누르면 팝업창에 노래가 틀어진다.
+13. 취소버튼으로 노래를 끌수 있고, 일시정지버튼으로 곡을 일시정지할 수 있다.
     (가사가 안떠있을때 일시정지시 가사 싱크가 안맞을 수 있으므로 일시정지는 사용하지 말것을 권장)
